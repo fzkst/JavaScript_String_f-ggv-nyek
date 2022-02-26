@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4. feladat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="kisnagybetus">
+        <div id="bevitel4">
+            <span>Kérem, adjon meg egy tetszőleget szöveget!</span> <input size="33" oninput="kisnagybetus()" type="text" id="szoveg4">
+        </div>        
+        <div id="valaszt">
+            <span >Kérem, válasszon, hogy milyenné szeretné átalakítani a szöveget!</span>
+        </div>
+        <div id="gombok4">
+            <span id="gomb41"><input onclick="kisbetus4()" type="button" value="Kisbetűs"></span><span id="gomb42"><input onclick="nagybetus4()" type="button" value="Nagybetűs"></span>
+        </div>
+        <div id="kimenet4">
+            <span>Az Ön által megadott szöveg kisbetűs változata: </span> <span id="szovegkiir4"></span>
+        </div>
+    </form>
+    <script src="./string.js"></script>
+</body>
+</html>

@@ -6,10 +6,115 @@ form.szoveghossz{
     margin: 30px 0px 0px 20px;
 }
 
+form.osszefuz{
+    width: 500px;
+    height: 130px;
+    background-color: bisque;
+    border: 1px solid;
+    margin: 30px 0px 0px 20px;
+}
+
+form.kisbetus{
+    width: 500px;
+    height: 100px;
+    background-color: bisque;
+    border: 1px solid;
+    margin: 30px 0px 0px 20px;
+}
+
+form.kisnagybetus{
+    width: 600px;
+    height: 150px;
+    background-color: bisque;
+    border: 1px solid;
+    margin: 30px 0px 0px 20px;
+}
+
+form.szerepele{
+    width: 800px;
+    height: 100px;
+    background-color: bisque;
+    border: 1px solid;
+    margin: 30px 0px 0px 20px;
+}
+
+form.szamlalo{
+    width: 800px;
+    height: 70px;
+    background-color: bisque;
+    border: 1px solid;
+    margin: 30px 0px 0px 20px;
+}
+
 #bevitel1{
     margin: 10px 0 20px 10px;
 }
 
 #kimenet1{
     margin-left: 10px;
+}
+
+#bevitel3{
+    margin: 10px 0 20px 10px;
+}
+
+#kimenet3{
+    margin-left: 10px;
+}
+
+#bevitel4{
+    margin: 10px 0 20px 10px;
+}
+
+#kimenet4{
+    margin-left: 10px;
+}
+
+#bevitel5{
+    margin: 10px 0 20px 10px;
+}
+
+#kimenet5{
+    margin-left: 10px;
+}
+
+#vezeteknev{
+    margin: 10px 0 20px 10px;
+}
+
+#keresztnev{
+    margin: 10px 0 20px 10px;
+}
+
+#keresztnev span{
+    margin-right: 4px;
+}
+
+#gomb2{
+    margin-left: 10px;
+}
+
+#valaszt{
+    margin: 15px 10px 15px 10px;
+}
+
+#gomb41{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#gombok4{
+    margin-bottom: 15px;
+}
+
+#bevitel6{
+    margin: 10px 0 20px 10px;
+}
+
+#bevitel62{
+    margin-left: 10px;
+}
+
+#bevitel7{
+    margin: 20px 0px 0 10px;
 }
