@@ -61,3 +61,41 @@ function szamlalo(){
     darab = szoveg.split(" ").length - 1;
     alert(darab + " szóköz volt a szövegben.")
 }
+
+function kodol(){
+    var szoveg = document.getElementById('szoveg8').value;    
+    for (i = 0; i < szoveg.length; i++){
+    var kodolt = szoveg[i].charCodeAt();
+    document.getElementById('kodolt').innerHTML += kodolt;
+    }  
+}
+
+function torol(){
+    document.getElementById('kodol').innerHTML = "";
+}
+
+function kodolt9(){
+    for (i = 0; i < 256; i++){
+        var karakter = String.fromCharCode(i);
+        if (i == 0 || i == 255){
+            document.getElementById('kodolt9').innerHTML += karakter
+        }else{
+            document.getElementById('kodolt9').innerHTML += karakter + ", ";
+        }
+        
+    }
+}
+
+function kodolt92(){
+    for (i = 0; i < 256; i++){
+        var karakter = String.fromCharCode(i);
+        if (i != 0 && i % 10 == 0){
+            document.getElementById('kodolt92').innerHTML += " [" + i + " = " + karakter + "] " + "<br>";
+        }else{
+            document.getElementById('kodolt92').innerHTML += " [" + i + " = " + karakter + "] ";
+        }
+    }
+}
+
+kodolt9();
+kodolt92();

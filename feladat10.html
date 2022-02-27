@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3. feladat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <script src="./bootstrap/js/jquery-3.5.1.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <form class="container boot bg-info w-75 mb-5">
+        <div class="row" id="bevitel3">
+            <span class="col">Kérem, adjon meg egy tetszőleget szöveget!</span> 
+            <input class="col mt-1" oninput="kisbetus()" type="text" id="szoveg1">
+        </div>
+        <div class="row" id="kimenet3">
+            <span class="col mb-2">Az Ön által megadott szöveg kisbetűs változata: </span> <span class="col" id="szovegkiir3"></span>
+        </div>        
+    </form>
+
+    <form class="container boot bg-info w-75 mb-5">
+        <div class="row" id="bevitel4">
+            <span class="col">Kérem, adjon meg egy tetszőleget szöveget!</span> 
+            <input class="col mt-1" size="33" oninput="kisnagybetus()" type="text" id="szoveg4">
+        </div>
+        <div class="row" id="valaszt">
+            <span>Kérem, válasszon, hogy milyenné szeretné átalakítani a szöveget!</span>
+        </div>
+        <div class="row" id="gombok4">
+            <span class="col" id="gomb41"><input onclick="kisbetus4()" type="button" value="Kisbetűs"></span>
+            <span class="col" id="gomb42"><input onclick="nagybetus4()" type="button" value="Nagybetűs"></span>
+        </div>
+        <div class="row" id="kimenet4">
+            <span class="col">Az Ön által megadott szöveg kisbetűs változata: </span>
+            <span class="col" id="szovegkiir4"></span>
+        </div>
+    </form>
+
+    <form class="container boot bg-info w-75">
+        <div class="row" id="bevitel6">
+            <span class="col">Kérem, adjon meg egy legalább 30 karakterből álló szöveget!</span> 
+            <input class="col mt-1" size="45" type="text" id="szoveg6">
+        </div>
+        <div class="row" id="bevitel62">
+            <span class="col">Kérem, adja meg a keresendő szót!</span> 
+            <input class="col mb-1 mr-2" onblur="szerepele()" size="20" type="text" id="szo6">
+        </div>
+    </form>
+    <script src="./string.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8. feladat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="kodolt">
+        <div id="bevitel8">
+            <span>Kérem, adjon meg egy tetszőleges szöveget!</span> <input onblur="kodol()" size="30" type="text" id="szoveg8">
+        </div>
+        <div id="kimenet8">
+            <span>A szöveg kódolva: </span><span id="kodolt"></span> 
+        </div>     
+        <button onclick="torol()" id="torol">Törlés</button>   
+    </form>
+    <script src="./string.js"></script>
+</body>
+</html>
